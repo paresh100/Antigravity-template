@@ -1,0 +1,10 @@
+# Static files - MUST be above SPA catch-all
+/sitemap.xml /sitemap.xml 200
+/robots.txt /robots.txt 200
+
+# SPA routes (customize these for your app)
+# /about /index.html 200
+# /contact /index.html 200
+
+# Catch-all for other routes (SPA fallback)
+/* /index.html 200

@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Edge function to serve sitemap without Brotli compression
+[[edge_functions]]
+  function = "sitemap"
+  path = "/sitemap.xml"
